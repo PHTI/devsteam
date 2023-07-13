@@ -26,8 +26,11 @@ export default function Home() {
               <SaleCard />
             </div>
           </div>
-          <div>
+          <div className={styles.gamecontainer}>
             <Subtitle>Outros jogos</Subtitle>
+            <GameCard />
+            <GameCard />
+            <GameCard />
             <GameCard />
           </div>
         </Container>
