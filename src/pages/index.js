@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/saleCards'
+import GameCard from '@/components/cards/gameCards/gameCard'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           </div>
           <div>
             <Subtitle>Outros jogos</Subtitle>
+            <GameCard />
           </div>
         </Container>
       </div>
